@@ -1,55 +1,36 @@
     body{
     background-color:hsl(212, 45%, 89%);
     font-family: outfit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     }
     .attribution { 
-        margin: auto;
-        position:fixed;
-        bottom:0;
         font-size: 11px; 
-        text-align: center;
         width: 100%; 
     }
     .attribution a { 
         color: hsl(228, 45%, 44%); 
     }
     .container {
-        position: absolute;
-        top: 0; 
-        right: 0; 
-        bottom: 0; 
-        left: 0;
-        margin: auto;
         border-radius: 10px;
         background-color: hsl(0, 0%, 100%);
         text-align: center; 
-        width: 200px; 
-        height: 320px;}
+        max-width: 250px;
+        padding: 20px;
+    }
     .container img {
         border-radius: 5px;
-        margin: 10px 5px;
-        background-color: hsl(0, 0%, 100%); 
-        max-width: 185px; height: 185px;}
+        width: 100%;
+    }
     .container h1 {
-        font-weight: 700;
-        padding-left: 2.5px;
-        padding-right: 2.5px;
-        font-size: 15px; 
-        text-align: center; 
-        max-width: 175px; 
-        height: 30px;
-        margin:5px 10px;
+        font-size: 20px; 
+        margin:20px 0px;
         color: hsl(218, 44%, 22%)}
     .container p {
-        font-weight: 400;
-        margin:20px 10px;
-        padding-left: 2.5px;
-        padding-right: 2.5px; 
-        color: #808080;
-        font-size: 10px; 
-        text-align: center; 
-        max-width: 175px; 
-        height: 30px; 
-        color: hsl(220, 15%, 55%);
+        margin-bottom: 30px;
+        font-size: 16px; 
     }
     
